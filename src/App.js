@@ -3,7 +3,7 @@ import "./App.css";
 import { useState, useEffect } from "react";
 import { BsTrash, BsBookmarkCheck, BsBookmarkCheckFill } from "react-icons/bs";
 
-const API = "https://todolist-api-vercel.vercel.app/";
+const API = "https://todolist-api-vercel.vercel.app";
 
 function App() {
   const [title, setTitle] = useState("");
